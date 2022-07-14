@@ -74,30 +74,9 @@ public class ProductController {
 		}
 
 	}
+
 	
 	  
-	
-	/*
-	 * @PutMapping("/products/{id}") public ResponseEntity<ProductEntity>
-	 * updateProductById(@PathVariable("id") Long id, @RequestBody ProductEntity
-	 * product) throws ResourceNotFoundException{ ProductEntity
-	 * productEntity=productServiceInterface.findById(id);
-	 * 
-	 * productEntity.setName(product.getName());
-	 * productEntity.setDescription(product.getDescription());
-	 * productEntity.setPrice(product.getPrice());
-	 * productEntity.setStatus(product.getStatus());
-	 * 
-	 * 
-	 * 
-	 * ProductEntity productsEntity2 =
-	 * productServiceInterface.addProduct(productEntity); return
-	 * ResponseEntity.ok().body(productsEntity2);
-	 * 
-	 * }
-	 */
-	
-
 
 	
 }
